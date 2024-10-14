@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "name": "ReaperScans",
+  "baseUrl": "https://reaperscans.com",
+  "mangaList": {
+    "selector": ".manga-item",
+    "mangaUrl": ".manga-title a",
+    "mangaCover": ".manga-cover img",
+    "mangaTitle": ".manga-title",
+    "mangaStatus": ".status"
+  },
+  "mangaDetails": {
+    "description": ".description",
+    "chapters": {
+      "selector": ".chapter-item",
+      "chapterUrl": "a",
+      "chapterTitle": ".chapter-title",
+      "chapterDate": ".chapter-date"
+    }
+  },
+  "chapterDetails": {
+    "images": {
+      "selector": ".page-container img",
+      "imageUrl": "src"
+    }
+  },
+  "search": {
+    "url": "/?s={{query}}",
+    "mangaList": {
+      "selector": ".manga-item",
+      "mangaUrl": ".manga-title a",
+      "mangaCover": ".manga-cover img",
+      "mangaTitle": ".manga-title"
+    }
+  }
+}
